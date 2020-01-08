@@ -26,8 +26,9 @@ public class EmptyState {
     
     private var emptyStateView: EmptyStateView!
     private var tableView: UITableView?
+    #if os(iOS)
     private var separatorStyle: UITableViewCell.SeparatorStyle = .none
-    
+    #endif
     /// Show or hide view
     private var hidden = true {
         didSet {
@@ -74,7 +75,9 @@ public class EmptyState {
         if let view = view as? UITableView {
             view.backgroundView = emptyStateView
             tableView = view
+            #if os(iOS)
             separatorStyle = view.separatorStyle
+            #endif
         } else if let view = view as? UICollectionView {
             view.backgroundView = emptyStateView
         } else {
@@ -88,13 +91,17 @@ extension EmptyState {
     public func show(_ state: CustomState? = nil) {
         self.state = state
         hidden = false
+        #if os(iOS)
         tableView?.separatorStyle = .none
+        #endif
         emptyStateView.play()
     }
     
     public func hide() {
         hidden = true
+        #if os(iOS)
         tableView?.separatorStyle = separatorStyle
+        #endif
     }
 }
 
