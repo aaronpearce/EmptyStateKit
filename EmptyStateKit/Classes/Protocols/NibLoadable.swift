@@ -27,7 +27,11 @@ extension NibLoadable {
     /* By default, use the nib which have the same name as the name of the class,
      and located in the bundle of that class */
     static var nib: UINib {
-        return UINib(nibName: String(describing: self), bundle: Bundle(for: self))
+        var nibName = String(describing: self)
+        #if os(tvOS)
+            nibName += "-TV"
+        #endif
+        return UINib(nibName: nibName, bundle: Bundle(for: self))
     }
     
     /// Use to create the view with the nib

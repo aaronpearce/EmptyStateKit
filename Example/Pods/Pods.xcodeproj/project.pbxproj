@@ -21,6 +21,7 @@
 		B406A56349FCC0C16AD1E8D5D7EDC5C3 /* Pods-EmptyStateKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE93808979FB22A468CE9B06C65D2482 /* Pods-EmptyStateKit_Example-dummy.m */; };
 		C180B4F164A02A250DE96BFD989C02B4 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF204F3D4D3CB9EE75F567E87A69E5E /* EmptyStateView.swift */; };
 		C4A0E045F2001083D101CC4F20F23880 /* AssociationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FD059F738B22715F195C5A91AE4BA /* AssociationPolicy.swift */; };
+		CD6D624E23C572D0002A8EE3 /* EmptyStateView-TV.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6D624D23C572D0002A8EE3 /* EmptyStateView-TV.xib */; };
 		CE0ADFE2A2961E7917193DE76B90ED65 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31708D5B13DF8DF0C3CECBA56E5B14F7 /* NibView.swift */; };
 		DEE5D7EA0604A93501C75CA9D3A15E50 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959E33186C6A72B9EA22EEBF6636FB1 /* UIView+Nib.swift */; };
 		E09ED87DC716C8300776A4F916F7CD3D /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A0DD511A23C2B324F6F3BBB2DF13A8 /* NibLoadable.swift */; };
@@ -42,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		034AE492068D9254938B8833C545A49A /* EmptyStateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateAnimation.swift; sourceTree = "<group>"; };
-		03D3DA1EC07A27E50277B2D62D3C981C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		03D3DA1EC07A27E50277B2D62D3C981C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		23A0DD511A23C2B324F6F3BBB2DF13A8 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		2D2F65F7F8E60915B6BF0C85DC21DCB2 /* EmptyStateView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Animations.swift"; sourceTree = "<group>"; };
 		2E0CD00FD69293AC7BA0E790C5D189CE /* Pods-EmptyStateKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmptyStateKit_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -50,10 +51,10 @@
 		36DE5019A0C4FB0A17F460012C34AA49 /* EmptyStateView+Positions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Positions.swift"; sourceTree = "<group>"; };
 		375D683D3183E47A3E708836A16DAE78 /* EmptyStateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmptyStateKit-Info.plist"; sourceTree = "<group>"; };
 		3C5EA1846BA612E91C65D050DEC20BF3 /* EmptyStateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmptyStateKit.modulemap; sourceTree = "<group>"; };
-		3F03532B11867CC3FEFF3F6567FA8829 /* EmptyStateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmptyStateKit.framework; path = EmptyStateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F03532B11867CC3FEFF3F6567FA8829 /* EmptyStateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmptyStateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43D289BBB7B075F5802D537E8337136F /* EmptyStatePosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStatePosition.swift; sourceTree = "<group>"; };
-		48F32880B75FBCF7C3D0A0F004DDB86C /* EmptyStateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmptyStateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48F32880B75FBCF7C3D0A0F004DDB86C /* EmptyStateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EmptyStateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6DDE4FDCFF0F12E4573C3A8A0599873E /* CustomState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomState.swift; sourceTree = "<group>"; };
 		72EC5CA4CD69C9CB6C0FF1DD9D325164 /* Pods-EmptyStateKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmptyStateKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		7959E33186C6A72B9EA22EEBF6636FB1 /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
@@ -61,14 +62,15 @@
 		8485B44CB75F099F8EE2B85056E6638C /* EmptyStateView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EmptyStateView.xib; path = EmptyStateKit/Classes/Resources/EmptyStateView.xib; sourceTree = "<group>"; };
 		8D1FD059F738B22715F195C5A91AE4BA /* AssociationPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociationPolicy.swift; sourceTree = "<group>"; };
 		9739AF7B5A0C0CD2F1A859276B78FEB7 /* UIView+EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+EmptyState.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A177E9E308E4025B1AFA3E804A8CB868 /* Pods-EmptyStateKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyStateKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A7061C3E0A447C1A28C3BB9017A69845 /* EmptyStateFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateFormat.swift; path = EmptyStateKit/Classes/EmptyStateFormat.swift; sourceTree = "<group>"; };
-		A97555560E67C6CC49FBCC2176F9948F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A97555560E67C6CC49FBCC2176F9948F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B6790F881059DDFDDCF9B86F4207658D /* Pods-EmptyStateKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyStateKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BE654F42BDC94350CAF282B94AF4137E /* Pods-EmptyStateKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyStateKit_Example-Info.plist"; sourceTree = "<group>"; };
-		C3D145705710AAD4A1ABAF11878857AE /* Pods_EmptyStateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmptyStateKit_Example.framework; path = "Pods-EmptyStateKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D145705710AAD4A1ABAF11878857AE /* Pods_EmptyStateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmptyStateKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF204F3D4D3CB9EE75F567E87A69E5E /* EmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateView.swift; path = EmptyStateKit/Classes/EmptyStateView.swift; sourceTree = "<group>"; };
+		CD6D624D23C572D0002A8EE3 /* EmptyStateView-TV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "EmptyStateView-TV.xib"; path = "EmptyStateKit/Classes/Resources/EmptyStateView-TV.xib"; sourceTree = "<group>"; };
 		D157E52A74F110506832292FE8832467 /* Pods-EmptyStateKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyStateKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6C72A66A05A9CE43E663BD9F19FF2E5 /* Pods-EmptyStateKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmptyStateKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DAF4293D1E48500D6E43D7F5BC789322 /* EmptyStateKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyStateKit.xcconfig; sourceTree = "<group>"; };
@@ -259,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				8485B44CB75F099F8EE2B85056E6638C /* EmptyStateView.xib */,
+				CD6D624D23C572D0002A8EE3 /* EmptyStateView-TV.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -363,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6D624E23C572D0002A8EE3 /* EmptyStateView-TV.xib in Resources */,
 				037F0C809CE8FE4BDFEFA706352B197C /* EmptyStateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,8 +603,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
