@@ -41,7 +41,8 @@ Pod::Spec.new do |s|
   
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.resources         = 'EmptyStateKit/**/Resources/*.xib'
+  s.ios.resources         = 'EmptyStateKit/**/Resources/EmptyStateView.xib'
+  s.tvos.resources         = 'EmptyStateKit/**/Resources/EmptyStateView-TV.xib'
   
   # ――― Swift Version ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
